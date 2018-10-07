@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <Authors>Marek Pokorný</Authors>
+    <Company>MpSoft</Company>
+    <Copyright>https://opensource.org/licenses/MIT</Copyright>
+    <PackageProjectUrl>https://github.com/MarekPokornyOva/MpSoft.StreamCaching</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/MarekPokornyOva/MpSoft.StreamCaching</RepositoryUrl>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Description>Caching stream supporting ahead reading. That allows to continue reading (and temporary storing) data from source (e.g. network) while processing already read chunk.</Description>
+  </PropertyGroup>
+
+</Project>

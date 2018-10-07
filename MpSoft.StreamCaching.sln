@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MpSoft.StreamCaching", "src\MpSoft.StreamCaching\MpSoft.StreamCaching.csproj", "{5948333A-8E44-4389-A1A9-73B2F37D2CEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{297D24D7-6AAE-418E-AB32-14E570E3DCCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{BE257675-093F-43BE-B4B2-3E8DBE494411}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RssReader", "Samples\RssReader\RssReader.csproj", "{EF1A0908-EC7D-4B00-A024-147C8EA06435}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FAADAEF6-4845-4C52-B413-1A72EE7C712A}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5948333A-8E44-4389-A1A9-73B2F37D2CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5948333A-8E44-4389-A1A9-73B2F37D2CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5948333A-8E44-4389-A1A9-73B2F37D2CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5948333A-8E44-4389-A1A9-73B2F37D2CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF1A0908-EC7D-4B00-A024-147C8EA06435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF1A0908-EC7D-4B00-A024-147C8EA06435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF1A0908-EC7D-4B00-A024-147C8EA06435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF1A0908-EC7D-4B00-A024-147C8EA06435}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5948333A-8E44-4389-A1A9-73B2F37D2CEF} = {297D24D7-6AAE-418E-AB32-14E570E3DCCE}
+		{EF1A0908-EC7D-4B00-A024-147C8EA06435} = {BE257675-093F-43BE-B4B2-3E8DBE494411}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9ED4ADE7-EB33-4BB6-B391-695BB871BCCD}
+	EndGlobalSection
+EndGlobal
